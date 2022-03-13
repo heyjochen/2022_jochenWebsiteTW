@@ -2,14 +2,15 @@ module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        circular: ["Circular"],
-      },
+
       colors: {
-        'grayer': '#25282c',
-        'whiter': '#e6e5e4',
-        'reder': '#e54734',
-        'blueer': '#09acf0',
+        'grayer': '#29303f',
+        'whiter': '#f7f2ed',
+        'reder': '#f14f3d',
+        'blueer': '#79a8c6',
+      },
+      height: {
+        '128': '32rem',
       },
     },
   },
