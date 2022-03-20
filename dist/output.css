@@ -551,10 +551,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   order: 2;
 }
 
-.order-1 {
-  order: 1;
-}
-
 .order-none {
   order: 0;
 }
@@ -886,19 +882,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .py-8 {
@@ -946,8 +937,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 9rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
+.pt-24 {
+  padding-top: 6rem;
 }
 
 .text-center {
@@ -1088,10 +1079,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
-  .sm\:order-1 {
-    order: 1;
-  }
-
   .sm\:-m-4 {
     margin: -1rem;
   }
@@ -1113,6 +1100,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 28rem;
   }
 
+  .sm\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .sm\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1124,6 +1116,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:pb-12 {
     padding-bottom: 3rem;
+  }
+
+  .sm\:pt-36 {
+    padding-top: 9rem;
   }
 
   .sm\:text-left {
@@ -1142,6 +1138,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:order-1 {
+    order: 1;
+  }
+
   .md\:order-2 {
     order: 2;
   }
