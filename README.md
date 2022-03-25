@@ -54,7 +54,7 @@ I am currently focusing on finding a solution for better page speed and a perfec
 ## Author
 
 - Website - [Jochen Stierberger](https://www.stierberger.com)
-- Twitter - [@jokkken_dev](https://www.twitter.com/heyjochen)
+- Twitter - [@heyjochen](https://www.twitter.com/heyjochen)
 - Instagram - [@jstierberger](https://www.instagram.com/jstierberger)
 
 
